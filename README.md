@@ -32,7 +32,7 @@ Steps for installation:
 RELEASE=0.5.0
 ARCH=darwin_arm64
 mkdir -p ~/.terraform.d/plugins/local/cloudstack/cloudstack/${RELEASE}/${ARCH}
-wget "https://github.com/apache/cloudstack-terraform-provider/releases/download/v${RELEASE}/cloudstack-terraform-provider_${RELEASE}_${ARCH}.zip"
+wget "https://github.com/blooo-io/cloudstack-terraform-provider/releases/download/v${RELEASE}/cloudstack-terraform-provider_${RELEASE}_${ARCH}.zip"
 unzip cloudstack-terraform-provider_${RELEASE}_${ARCH}.zip -d cloudstack-terraform-provider_${RELEASE}
 mv cloudstack-terraform-provider_${RELEASE}/cloudstack-terraform-provider_v${RELEASE} ~/.terraform.d/plugins/local/cloudstack/cloudstack/${RELEASE}/${ARCH}/terraform-provider-cloudstack_v${RELEASE}
 ```
